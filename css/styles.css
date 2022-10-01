@@ -1,0 +1,112 @@
+body {
+  background: hsl(30, 38%, 92%);
+  margin-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  /* text-align: center; */
+}
+
+img {
+  width: 300px;
+  border-radius: 2px;
+}
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  right: 175px;
+}
+
+.description-price {
+  background: hsl(0, 0%, 100%);
+  /* display: flex;
+  flex-direction:column; */
+  width: 300px;
+  height: 450px;
+  padding-left: 10px;
+  position: absolute;
+  left: 860px;
+  border-radius: 2px;
+}
+
+
+.position-container,
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #6C7289;
+  padding-top: 10px;
+}
+
+h1 {
+  line-height: 14.5px;
+}
+
+h3 {
+font-weight: 700;
+font-family: 'Fraunces', sans-serif;
+font-size: 34px;
+line-height: 32px;
+color: #1C232B;
+width: 290px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.price-list {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  width: 130px;
+  line-height: 32px;
+  color: #3D8168;
+}
+
+.previous-price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #6C7289;
+  text-decoration: line-through;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.img-svg {
+  width: 14px;
+  padding-right: 10px;
+}
+
+.btn {
+  display: block;
+  padding: 20px;
+  width: 240px;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+  background:#3D8168;
+}
+
+
+
+
+
+
+
